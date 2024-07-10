@@ -1,0 +1,268 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: max-content 1fr;
+    margin: 0px;
+    font-family: monospace;
+    outline: solid red 2px;
+}
+
+.header {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2 ;
+    background-color: lightgoldenrodyellow;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#search-bar {
+    flex: 1;
+    background-color: aliceblue;
+    height: 20px;
+    border: 2px solid black; 
+    border-radius: 10px;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+.top-header {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+#image-border {
+    border-radius: 30px;
+}
+
+.th-left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex: 1;
+}
+
+.th-right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* width: 300px; */
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 20px;
+}
+
+#profile {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+
+#image-border-2 {
+    border-radius: 40px;
+}
+
+#greeting {
+    font-size: 1.1rem;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.bigger-para {
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    min-width: 30%;
+}
+
+button {
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border-style: none;
+    background-color: lightseagreen;
+    font-weight: bold;
+    min-width: 60px;
+    width: 120px;
+    height: 50px;
+}
+
+.dashboard {
+     grid-column: 1 / 2;
+     grid-row: 1 / 3 ;
+     background-color: lightblue;
+     padding-right: 20px;
+     box-sizing: border-box;
+}
+ 
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+
+ul {
+    display: grid;
+    grid-template-rows: 1fr 0.25fr 1fr;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+
+li {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.group-1 {
+    grid-row: 1 / 2;
+}
+
+.group-2 {
+    grid-row: 3 / 4;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: lightcoral;
+    box-shadow: -5px 0px red; 
+    border-style: none;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 150px; 
+    min-width: 200px;
+    gap: 10px;
+}
+
+.takeallspace {
+  flex: 1;
+}
+
+.takeallspace .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.takeallspace > p {
+    margin: 0px;
+}
+
+.image-group {
+   display: flex;
+   gap: 20px;
+   justify-content: end;
+}
+
+.announcements {
+     background-color: lightgreen;
+     padding: 20px;
+     border-radius: 10px;
+     border-style: none;
+}
+
+.tits {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.okay  {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.announcements  p {
+    margin-top: 0px;
+
+}
+
+.announcements .title {
+    margin-bottom: 5px;
+}
+
+.announce-para {
+    font-size: 0.7rem;
+}
+
+.message-2 {
+    border-top: solid red 2px;
+    border-bottom: solid red 2px;
+    padding-top: 14px;
+}
+
+.message-3 {
+    margin-top: 14px;
+}
+
+.trending {
+    background-color: lightsalmon;
+    border-radius: 10px;
+    border-style: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.trending > p {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0px;
+}
+
+.user-profile {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.bruh-1 {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.bruh-2 {
+    margin-top: 0px;
+}
+
+.rightbar {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 30px;
+    margin-left: 0px;
+}
